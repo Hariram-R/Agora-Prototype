@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/agora" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/dp"
+        android:id="@+id/name1"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_height="wrap_content"
+        android:text="John Doe"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/name1"
+        android:textSize="18sp"
+        android:layout_marginStart="20dp"
+        android:layout_height="wrap_content"
+        android:text="johndoe123"/>
+</RelativeLayout>
